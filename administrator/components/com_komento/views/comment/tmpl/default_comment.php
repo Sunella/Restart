@@ -89,7 +89,9 @@ defined('_JEXEC') or die('Restricted access'); ?>
 							<label class="col-md-5 control-label">
 								<?php echo JText::_( 'COM_KOMENTO_COMMENT_CREATED' ); ?>
 							</label>
-							<div class="col-md-7"></div>
+							<div class="col-md-7">
+								<?php echo JHTML::_('calendar', $this->comment->created , "created", "created", '%Y-%m-%d %H:%M:%S', array('size'=>'30')); ?>
+							</div>
 						</div>
 
 						<div class="form-group">

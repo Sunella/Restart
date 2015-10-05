@@ -135,8 +135,19 @@ class KomentoRecaptcha extends JObject
 	private function _recaptcha_http_post($path, $data, $port = 80)
 	{
 		$req = $this->_recaptcha_qsencode ($data);
-		
-		$response = file_get_contents($path . $req);
+
+		$url = $path . $req;
+
+		// We use Curl instead of file_get_contents for security reason
+		$rCURL = curl_init();
+
+		curl_setopt($rCURL, CURLOPT_URL, $url);
+		curl_setopt($rCURL, CURLOPT_HEADER, 0);
+		curl_setopt($rCURL, CURLOPT_RETURNTRANSFER, 1);
+
+		$response = curl_exec($rCURL);
+
+		curl_close($rCURL);
 
 		return $response;
 	}

@@ -558,6 +558,8 @@ class KomentoProfilePhpbb extends KomentoProfileVendor
 		$phpbbConfig	= $this->_getPhpbbConfig();
 		$phpbbuserid	= 0;
 
+		KomentoVersionHelper::getJoomlaVersion() >= '3.0' ? $nameQuote = 'quoteName' : $nameQuote = 'nameQuote';
+
 		if(empty($phpbbConfig))
 		{
 			return false;
@@ -577,15 +579,15 @@ class KomentoProfilePhpbb extends KomentoProfileVendor
 		{
 			switch($result->user_avatar_type)
 			{
-				case '1':
+				case 'avatar.driver.upload':
 					$subpath	= $phpbbConfig->avatar_upload_path;
 					$phpEx 		= JFile::getExt(__FILE__);
 					$source		= $phpbburl.'/download/file.'.$phpEx.'?avatar='.$result->user_avatar;
 					break;
-				case '2':
+				case 'avatar.driver.remote':
 					$source		= $result->user_avatar;
 					break;
-				case '3':
+				case 'avatar.driver.local':
 					$subpath	= $phpbbConfig->avatar_gallery_path;
 					$source		= $phpbburl.'/'.$subpath.'/'.$result->user_avatar;
 					break;
@@ -596,13 +598,13 @@ class KomentoProfilePhpbb extends KomentoProfileVendor
 		}
 		else
 		{
-			$sql	= 'SELECT '.$phpbbDB->nameQuote('theme_name').' '
-					. 'FROM '.$phpbbDB->nameQuote('#__styles_theme').' '
-					. 'WHERE '.$phpbbDB->nameQuote('theme_id').' = '.$phpbbDB->quote($phpbbConfig->default_style);
+			$sql	= 'SELECT '.$phpbbDB->{$nameQuote}('style_name').' '
+					. 'FROM '.$phpbbDB->{$nameQuote}('#__styles').' '
+					. 'WHERE '.$phpbbDB->{$nameQuote}('style_id').' = '.$phpbbDB->quote($phpbbConfig->default_style);
 			$phpbbDB->setQuery($sql);
 			$theme = $phpbbDB->loadObject();
 
-			$defaultPath	= 'styles/'.$theme->theme_name.'/theme/images/no_avatar.gif';
+			$defaultPath	= 'styles/'.$theme->style_name.'/theme/images/no_avatar.gif';
 			$source			= $phpbburl.'/'.$defaultPath;
 		}
 

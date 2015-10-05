@@ -272,7 +272,7 @@ class KomentoCommentHelper
 		$in = array( 	 '/\[b\](.*?)\[\/b\]/ms',
 						 '/\[i\](.*?)\[\/i\]/ms',
 						 '/\[u\](.*?)\[\/u\]/ms',
-						 '/\[img\](.*?)\[\/img\]/ms',
+						 '/\[img\](.*jpg|JPG|jpeg|JPEG|png|PNG|gif|GIF)+.*\[\/img\]/ms',
 						 '/\[email\](.*?)\[\/email\]/ms',
 						 '/\[size\="?(.*?)"?\](.*?)\[\/size\]/ms',
 						 '/\[color\="?(.*?)"?\](.*?)\[\/color\]/ms',
@@ -449,6 +449,10 @@ class KomentoCommentHelper
 				if( !empty( $source ) )
 				{
 					$url = $urls[$i];
+					// prevent user add javascript in the url element
+					$segments = explode(' ', $url);
+					$url = $segments[0];
+
 					$txt = $txts[$i];
 
 					if( stripos( $url, 'http://' ) !== 0 && stripos( $url, 'https://' ) !== 0 && stripos( $url, 'ftp://' ) !== 0 )
