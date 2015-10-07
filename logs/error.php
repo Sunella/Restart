@@ -30,3 +30,10 @@
 2015-10-05T03:23:53+00:00	INFO ::1	joomlafailure	Empty password not allowed.
 2015-10-05T03:23:53+00:00	INFO ::1	joomlafailure	Empty password not allowed.
 2015-10-05T03:23:59+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T05:21:12+00:00	INFO ::1	joomlafailure	Username and password do not match or you do not have an account yet.
+2015-10-07T06:29:11+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T06:29:23+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T06:29:53+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T06:30:02+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T06:30:02+00:00	INFO ::1	joomlafailure	Username and password do not match or you do not have an account yet.
+2015-10-07T06:30:03+00:00	INFO ::1	joomlafailure	Empty password not allowed.
