@@ -51,3 +51,8 @@
 2015-10-07T08:37:21+00:00	INFO ::1	joomlafailure	Empty password not allowed.
 2015-10-07T08:37:21+00:00	INFO ::1	joomlafailure	Username and password do not match or you do not have an account yet.
 2015-10-07T08:37:22+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:51:23+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:52:27+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:52:36+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:54:11+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:54:16+00:00	INFO ::1	joomlafailure	Empty password not allowed.
