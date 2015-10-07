@@ -37,3 +37,17 @@
 2015-10-07T06:30:02+00:00	INFO ::1	joomlafailure	Empty password not allowed.
 2015-10-07T06:30:02+00:00	INFO ::1	joomlafailure	Username and password do not match or you do not have an account yet.
 2015-10-07T06:30:03+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T06:44:04+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T06:58:05+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T07:12:06+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T07:26:07+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T07:40:09+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T07:54:10+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:08:10+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:22:11+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:29:12+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:29:13+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:37:10+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:37:21+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T08:37:21+00:00	INFO ::1	joomlafailure	Username and password do not match or you do not have an account yet.
+2015-10-07T08:37:22+00:00	INFO ::1	joomlafailure	Empty password not allowed.
