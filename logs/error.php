@@ -56,3 +56,20 @@
 2015-10-07T08:52:36+00:00	INFO ::1	joomlafailure	Empty password not allowed.
 2015-10-07T08:54:11+00:00	INFO ::1	joomlafailure	Empty password not allowed.
 2015-10-07T08:54:16+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T09:31:42+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T09:31:52+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T09:31:52+00:00	INFO ::1	joomlafailure	Username and password do not match or you do not have an account yet.
+2015-10-07T09:31:53+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T09:39:06+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T09:53:07+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T10:07:08+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T10:20:37+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T10:21:09+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T10:34:02+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T10:34:14+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T10:34:14+00:00	INFO ::1	auth	Successfully logged in user 'sufelk'.
+2015-10-07T10:34:15+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T10:34:35+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T10:34:35+00:00	INFO ::1	auth	Successfully logged in user 'sufelk'.
+2015-10-07T10:34:36+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-07T10:34:53+00:00	INFO ::1	joomlafailure	Empty password not allowed.
