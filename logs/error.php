@@ -73,3 +73,15 @@
 2015-10-07T10:34:35+00:00	INFO ::1	auth	Successfully logged in user 'sufelk'.
 2015-10-07T10:34:36+00:00	INFO ::1	joomlafailure	Empty password not allowed.
 2015-10-07T10:34:53+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T03:11:03+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T03:25:06+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T03:39:07+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T03:53:08+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T04:07:08+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T04:20:43+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T04:20:49+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T04:20:55+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T04:21:09+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T04:21:16+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T04:21:20+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2015-10-08T04:21:27+00:00	INFO ::1	joomlafailure	Empty password not allowed.

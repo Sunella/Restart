@@ -27,3 +27,19 @@
 2015-10-07T10:34:36+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
 2015-10-07T10:34:53+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
 2015-10-07T10:34:53+00:00	12621	Failed to find LDAP user 'sunella'.
+2015-10-08T03:11:01+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T03:11:03+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T03:25:06+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T03:39:07+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T03:53:08+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T04:07:08+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T04:20:42+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T04:20:43+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T04:20:48+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T04:20:49+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T04:20:55+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T04:21:09+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T04:21:16+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T04:21:19+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T04:21:27+00:00	10991	Failed to save user 'sufelk' due to table check error 'JLIB_DATABASE_ERROR_EMAIL_INUSE'.
+2015-10-08T04:21:27+00:00	12621	Failed to find LDAP user 'sunella'.
