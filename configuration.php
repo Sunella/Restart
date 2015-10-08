@@ -21,7 +21,7 @@ class JConfig {
 	public $secret = 'hCF7tn1WqxU6FsMy';
 	public $gzip = '0';
 	public $error_reporting = 'none';
-	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
+	public $helpurl = 'https://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '';
 	public $ftp_port = '';
 	public $ftp_user = 'admin';
@@ -29,7 +29,7 @@ class JConfig {
 	public $ftp_root = '';
 	public $ftp_enable = '0';
 	public $offset = 'UTC';
-	public $mailonline = '1';
+	public $mailonline = '0';
 	public $mailer = 'mail';
 	public $mailfrom = 'sunella.fernando@ifsworld.com';
 	public $fromname = 'Sample';
@@ -37,7 +37,7 @@ class JConfig {
 	public $smtpauth = '0';
 	public $smtpuser = '';
 	public $smtppass = '';
-	public $smtphost = 'localhost';
+	public $smtphost = '10.17.67.21';
 	public $smtpsecure = 'none';
 	public $smtpport = '25';
 	public $caching = '0';
@@ -66,4 +66,27 @@ class JConfig {
 	public $cookie_domain = '';
 	public $cookie_path = '';
 	public $asset_id = '1';
+	public $memcache_persist = '1';
+	public $memcache_compress = '0';
+	public $memcache_server_host = '10.17.67.21';
+	public $memcache_server_port = '11211';
+	public $memcached_persist = '1';
+	public $memcached_compress = '0';
+	public $memcached_server_host = '10.17.67.21';
+	public $memcached_server_port = '11211';
+	public $redis_persist = '1';
+	public $redis_server_host = '10.17.67.21';
+	public $redis_server_port = '6379';
+	public $redis_server_auth = '';
+	public $redis_server_db = '0';
+	public $proxy_enable = '0';
+	public $proxy_host = '';
+	public $proxy_port = '';
+	public $proxy_user = '';
+	public $proxy_pass = '';
+	public $massmailoff = '0';
+	public $session_memcache_server_host = '10.17.67.21';
+	public $session_memcache_server_port = '11211';
+	public $session_memcached_server_host = '10.17.67.21';
+	public $session_memcached_server_port = '11211';
 }
