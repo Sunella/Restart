@@ -58,3 +58,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 logs/error.php
+<<<<<<< HEAD
+=======
+logs/ldap.debug.php
+logs/ldap.error.php
+>>>>>>> origin/master

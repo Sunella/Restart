@@ -419,10 +419,10 @@ if (isset($player_values['licensekey']) && $player_values['licensekey'] != '')
 					<input type="radio" name="filepath" id="filepath1" <?php echo $isfilepathchk; ?> value="File" onclick="fileedit('File');" />
 					<span>File</span>
 					<input type="radio" name="filepath" id="filepath2" value="Url" onclick="fileedit('Url');"/>
-					<span>URL</span>
+					<span>OpenIFS Download Link</span>
 					<input type="radio" name="filepath" id="filepath4" <?php echo $youtubefilepathchk; ?> 
 						   value="Youtube" onclick="fileedit('Youtube');" />
-					<span>YouTube / Vimeo / DailyMotion / Viddler</span>
+					<span>YouTube / Vimeo </span>
 					<input type="radio" name="filepath" id="filepath3" <?php echo $ffmpegchk; ?> value="FFmpeg" 
 						   onclick="fileedit('FFmpeg');" /><span>FFmpeg</span>
 					<?php
